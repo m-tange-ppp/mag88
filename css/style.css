@@ -1,0 +1,93 @@
+html {
+    font-size: 100%;
+}
+body {
+    color: #2A2A2A;
+    font-family: Arial, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
+.sec-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+a {
+    color: #2A2A2A;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.7;
+}
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none;
+}
+.button {
+    display: inline-block;
+    padding: 14px 36px;
+    font-size: 0.75rem;
+    border: solid 1px #2A2A2A;
+}
+.button:hover {
+    opacity: 0.7;
+}
+p {
+    font-size: 0.875rem;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+}
+.description {
+    text-align: center;
+}
+
+/* Header */
+#header {
+    background-image: url("../img/mainvisual.jpg"); 
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 80px;
+    position: relative;
+}
+#header .site-title {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+/* Magazine */
+#magazine {
+    margin-bottom: 80px;
+}
+#magazine .description {
+    margin-bottom: 40px;
+}
+#magazine .flex-item a {
+    width: 49%;
+    position: relative;
+}
+#magazine .text-in-img {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    color: #FFFFFF;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 15px 0px;
+    margin: 0 auto;
+    max-width: 290px;
+    text-align: center;
+    font-weight: bold;
+}
+#magazine .text-in-img h3 {
+    font-size: 1.25rem;
+    margin-bottom: 2px;
+}
