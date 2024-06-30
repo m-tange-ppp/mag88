@@ -42,8 +42,12 @@ p {
 .flex-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .description {
+    text-align: center;
+}
+.item {
     text-align: center;
 }
 
@@ -90,4 +94,67 @@ p {
 #magazine .text-in-img h3 {
     font-size: 1.25rem;
     margin-bottom: 2px;
+}
+
+/* Fashion */
+#fashion {
+    background-image: url("../img/fashion.jpg");
+    background-position: top center;
+    background-size: cover;
+    height: 520px;
+    padding-top: 60px;
+}
+#fashion .description {
+    margin-bottom: 30px;
+}
+
+/* Catalog and Antique */
+.catalog-antique {
+    background-color: #F5F5F5;
+    padding: 60px 0 60px;
+}
+.catalog-antique .text {
+    width: 48%;
+}
+.catalog-antique .img {
+    width: 48%;
+}
+.catalog-antique .text p {
+    margin-bottom: 30px;
+}
+.catalog-antique .text p:last-child {
+    margin-bottom: 0;
+}
+.catalog-antique .text .sec-title {
+    margin-bottom: 40px;
+}
+.catalog-antique .item {
+    margin-top: 60px;
+}
+
+/* Footer */
+#footer .flex-item {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 100px 50px;
+    line-height: 2;
+}
+#footer .item {
+    width: calc(100%/3);
+    text-align: left;
+}
+#footer h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+#footer li, #footer p {
+    font-size: 0.75rem;
+}
+#footer li::before {
+    content: "-";
+    margin-right: 5px;
+}
+#footer #copyright {
+    text-align: center;
+    padding: 30px;
 }

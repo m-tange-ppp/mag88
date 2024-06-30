@@ -19,7 +19,7 @@
 
     <main>
         <section id="magazine">
-            <div class="wrapper">                
+            <div class="wrapper">
                 <h2 class="sec-title">
                     A special, long article in a newspaper or magazine
                 </h2>
@@ -34,14 +34,14 @@
                             <h3>Archive</h3>
                             <p>テキストテキストテキストテキスト<br>
                                 テキストテキストテキスト</p>
-                            </div>
-                        </a>
-                        <a href="index.html">
-                            <img src="img/magazine-new.jpg" alt="new">
-                            <div class="text-in-img">
-                                <h3>New</h3>
-                                <p>テキストテキストテキストテキスト<br>
-                                    テキストテキストテキスト</p>
+                        </div>
+                    </a>
+                    <a href="index.html">
+                        <img src="img/magazine-new.jpg" alt="new">
+                        <div class="text-in-img">
+                            <h3>New</h3>
+                            <p>テキストテキストテキストテキスト<br>
+                                テキストテキストテキスト</p>
                         </div>
                     </a>
                 </div>
@@ -57,9 +57,11 @@
                     テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
                     テキストテキストテキストテキストテキストテキストテキストテキスト
                 </p>
-                <a href="index.html" class="button">
-                    Read More
-                </a>
+                <div class="item">
+                    <a href="index.html" class="button">
+                        Read More
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -89,10 +91,10 @@
         </section>
 
         <section class="catalog-antique">
-            <div class="flex-item wrapper">
+            <div class="wrapper flex-item">
                 <div class="text">
                     <h2 class="sec-title">
-                        Catalog
+                        Antique
                     </h2>
                     <p>
                         テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -102,24 +104,26 @@
                         テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト
                         テキストテキストテキストテキストテキストテキストテキストテキストテキスト
                     </p>
-                    <a href="index.html" class="button">
-                        Read More
-                    </a>
+                    <div class="item">
+                        <a href="index.html" class="button">
+                            Read More
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="img">
-                <img src="img/antique.jpg" alt="catalog">
+                <div class="img">
+                    <img src="img/antique.jpg" alt="catalog">
+                </div>
             </div>
         </section>
 
     </main>
 
     <footer id="footer">
-        <div class="flex">
-            <div>
+        <div class="flex-item">
+            <div class="item">
                 <img src="img/logo.svg" alt="logo" class="logo">
             </div>
-            <div>
+            <div class="item">
                 <h3>タイトル</h3>
                 <ul>
                     <li>テキストテキストテキスト</li>
@@ -129,7 +133,7 @@
                     <li>テキストテキストテキスト</li>
                 </ul>
             </div>
-            <div>
+            <div class="item">
                 <h3>タイトルタイトルタイトル</h3>
                 <p>
                     テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -137,7 +141,7 @@
                 </p>
             </div>
         </div>
-        <p>
+        <p id="copyright">
             &copy; Mag88
         </p>
     </footer>
